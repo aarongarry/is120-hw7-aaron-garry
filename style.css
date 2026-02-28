@@ -122,13 +122,12 @@ footer p {
 }
 
 @media screen and (max-width: 1025px) {
-    .hero-container {
-        flex-direction: column;
-        height: 89vh;
-    }
-  
+  .hero-container {
+    flex-direction: column;
+    height: 89vh;
+  }
 
-  .self-portrait img{
+  .self-portrait img {
     height: 35vh;
     border-radius: 60px;
   }
@@ -141,20 +140,18 @@ footer p {
   }
 
   .self-portrait,
-.intro-p {
-  margin: 10%;
-}
-
+  .intro-p {
+    margin: 10%;
+  }
 }
 
 @media screen and (max-width: 575px) {
-    .hero-container {
-        flex-direction: column;
-        height: 83vh;
-    }
-  
+  .hero-container {
+    flex-direction: column;
+    height: 83vh;
+  }
 
-  .self-portrait img{
+  .self-portrait img {
     height: 25vh;
     border-radius: 60px;
   }
@@ -167,10 +164,9 @@ footer p {
   }
 
   .self-portrait,
-.intro-p {
-  margin: 40px;
-}
-
+  .intro-p {
+    margin: 40px;
+  }
 }
 
 /* Career */
