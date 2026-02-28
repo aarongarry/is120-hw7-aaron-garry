@@ -1,2 +1,8 @@
 # is120-hw7-aaron-garry
 CSS Responsive Design 
+
+
+- The Biggest thing I changed was the way the image and paragraph were next to each other. I made a container (flex) for them and set it to be in flex rows on a computer then to be in  flex-column when on a tablet or phone. I also changed the size of the image to be be based of VH. If the screen is smaller it looked better for the image to be smaller as well. I think this is because there is way less white space on a smaller device so the image also needed to be smaller. 
+The last thing I needed to change lots was my footer. Before on a small screen all the icons jumbled up. I also used flexbox here to make sure the items spaced out evenly no matter what screen size. 
+- The two break points I used were max width 1025 and max width 575. I picked this because that is where the text started to bunch up on the side as it got smaller. At at even smaller point the image looked to large. These widths also are around the average phone and tablet sizes when using chrome dev tools when changing the dimensions. When looking at bootstraps breakpoints mine are very similar to small and large. This makes sense I was going for a small, large and even larger screen sizes for my media queries to fit. 
+- A lot of the difficulties came because I used pixels as measurements instead of VH/VW. If I used these it would have been a lot easier. I also needed to go back and make the body and footer with flexbox. If I had done that in the first place it also would have been much easier to make a responsive design.
